@@ -1,0 +1,7 @@
+package com.payflow.payflow.repositories;
+
+import com.payflow.payflow.entities.Transfer;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface TransferRepository extends JpaRepository<Transfer, Long> {
+}

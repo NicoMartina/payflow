@@ -1,10 +1,9 @@
-package com.uretek.uretek_inventory.dto;
-
+package com.payflow.payflow.dtos;
 
 import lombok.Data;
 
 @Data
-public class LoginRequest {
+public class AuthRequestDto {
     private String username;
     private String password;
 }

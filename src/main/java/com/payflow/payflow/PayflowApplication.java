@@ -1,4 +1,4 @@
-package com.uretek.uretek_inventory;
+package com.payflow.payflow;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -7,10 +7,10 @@ import org.springframework.web.servlet.config.annotation.CorsRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 @SpringBootApplication
-public class UretekInventoryApplication {
+public class PayflowApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(UretekInventoryApplication.class, args);
+		SpringApplication.run(PayflowApplication.class, args);
 	}
 
 	@Bean
